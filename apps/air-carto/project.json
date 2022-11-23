@@ -52,7 +52,26 @@
 			"outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
 			"options": {
 				"jestConfig": "apps/air-carto/jest.config.ts",
-				"passWithNoTests": true
+				"passWithNoTests": true,
+				"codeCoverage": true,
+				"coverageReporters": ["html", "json-summary", "lcov"]
+			}
+		},
+		"compodoc": {
+			"executor": "@twittwer/compodoc:compodoc",
+			"options": {
+				"tsConfig": "apps/air-carto/tsconfig.app.json",
+				"outputPath": "dist/compodoc/air-carto",
+				"disableCoverage": false,
+				"unitTestCoverage": "coverage/apps/air-carto/coverage-summary.json"
+			},
+			"configurations": {
+				"json": {
+					"exportFormat": "json"
+				},
+				"serve": {
+					"serve": true
+				}
 			}
 		}
 	},
