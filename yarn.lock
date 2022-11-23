@@ -4962,7 +4962,6 @@ __metadata:
     nx: 15.2.1
     pino-http: ^8.2.1
     prettier: ^2.6.2
-    prettier-plugin-organize-imports: ^3.2.0
     reflect-metadata: ^0.1.13
     rxjs: ^7.0.0
     squel: ^5.13.0
@@ -11928,23 +11927,6 @@ __metadata:
   version: 1.1.2
   resolution: "prelude-ls@npm:1.1.2"
   checksum: c4867c87488e4a0c233e158e4d0d5565b609b105d75e4c05dc760840475f06b731332eb93cc8c9cecb840aa8ec323ca3c9a56ad7820ad2e63f0261dadcb154e4
-  languageName: node
-  linkType: hard
-
-"prettier-plugin-organize-imports@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "prettier-plugin-organize-imports@npm:3.2.0"
-  peerDependencies:
-    "@volar/vue-language-plugin-pug": ^1.0.4
-    "@volar/vue-typescript": ^1.0.4
-    prettier: ">=2.0"
-    typescript: ">=2.9"
-  peerDependenciesMeta:
-    "@volar/vue-language-plugin-pug":
-      optional: true
-    "@volar/vue-typescript":
-      optional: true
-  checksum: ba9f0d1bf2ecb3ca3c67c28b8ca479b33e571435ba59408d2eab6dff9ca661ef3116b292acc20d9e15eec99be2d9c6151b844b5a80c762bd972fda0da31efcd9
   languageName: node
   linkType: hard
 
