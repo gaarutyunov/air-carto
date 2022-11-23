@@ -13,6 +13,7 @@ jobs:
               with:
                   fetch-depth: 0
             - uses: nrwl/nx-set-shas@v3
+            - uses: mskelton/setup-yarn@v1
             - run: yarn install
             - run: yarn nx workspace-lint
             - run: yarn nx format:check
